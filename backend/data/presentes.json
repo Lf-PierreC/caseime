@@ -1,0 +1,515 @@
+[
+  {
+    "id": 2,
+    "nome": "Lava e Seca",
+    "preco": 2500,
+    "presenteado": false,
+    "categoria": "Eletrodomésticos",
+    "descricao": "Máquina que lava e seca roupas",
+    "imagem": "/images/lava_seca.png"
+  },
+  {
+    "id": 3,
+    "nome": "Geladeira",
+    "preco": 2800,
+    "presenteado": true,
+    "categoria": "Eletrodomésticos",
+    "descricao": "Geladeira moderna para conservar alimentos",
+    "imagem": "/images/geladeira.jpg"
+  },
+  {
+    "id": 4,
+    "nome": "Cooktop",
+    "preco": 480,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Fogão cooktop para preparar suas refeições",
+    "imagem": "/images/cooktop.jpg"
+  },
+  {
+    "id": 5,
+    "nome": "Cama",
+    "preco": 1200,
+    "presenteado": false,
+    "categoria": "Móveis",
+    "descricao": "Cama confortável para o casal",
+    "imagem": "/images/cama.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "TV",
+    "preco": 2200,
+    "presenteado": false,
+    "categoria": "Eletrônicos",
+    "descricao": "Televisão para momentos de lazer",
+    "imagem": "/images/tv.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Aspirador de pó robô",
+    "preco": 900,
+    "presenteado": false,
+    "categoria": "Eletrodomésticos",
+    "descricao": "Aspirador robô para facilitar a limpeza",
+    "imagem": "/images/aspirador.jpg"
+  },
+  {
+    "id": 8,
+    "nome": "Ferro de passar",
+    "preco": 160,
+    "presenteado": false,
+    "categoria": "Eletrodomésticos",
+    "descricao": "Ferro para passar roupas",
+    "imagem": "/images/ferro.jpg"
+  },
+  {
+    "id": 9,
+    "nome": "Ferro a vapor",
+    "preco": 250,
+    "presenteado": false,
+    "categoria": "Eletrodomésticos",
+    "descricao": "Ferro a vapor para roupas sem amassados",
+    "imagem": "/images/ferro_vapor.jpg"
+  },
+  {
+    "id": 10,
+    "nome": "Liquidificador",
+    "preco": 150,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Liquidificador para sucos e vitaminas",
+    "imagem": "/images/liquidificador.jpg"
+  },
+  {
+    "id": 11,
+    "nome": "Grill",
+    "preco": 160,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Grill elétrico para grelhar alimentos",
+    "imagem": "/images/grill.jpg"
+  },
+  {
+    "id": 12,
+    "nome": "Microondas",
+    "preco": 661,
+    "presenteado": true,
+    "categoria": "Eletrodomésticos",
+    "descricao": "Microondas para esquentar suas refeições",
+    "imagem": "/images/microondas.jpg"
+  },
+  {
+    "id": 13,
+    "nome": "Air fryer",
+    "preco": 380,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Air fryer para fritar com menos óleo",
+    "imagem": "/images/air_fryer.jpg"
+  },
+  {
+    "id": 14,
+    "nome": "Cafeteira",
+    "preco": 400,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Cafeteira para preparar café fresco",
+    "imagem": "/images/cafeteira.jpg"
+  },
+  {
+    "id": 15,
+    "nome": "Ajuda na lua de mel",
+    "preco": 200,
+    "presenteado": false,
+    "categoria": "Viagem",
+    "descricao": "Contribuição para a lua de mel do casal",
+    "imagem": "/images/ajuda_lua_mel.jpg"
+  },
+  {
+    "id": 16,
+    "nome": "Ajuda na lua de mel pfvr kkk",
+    "preco": 200,
+    "presenteado": false,
+    "categoria": "Viagem",
+    "descricao": "Mais uma ajuda para a lua de mel",
+    "imagem": "/images/ajuda_lua_mel_2.jpg"
+  },
+  {
+    "id": 17,
+    "nome": "Noite de núpcias Glória",
+    "preco": 300,
+    "presenteado": false,
+    "categoria": "Viagem",
+    "descricao": "Noite especial de núpcias para o casal",
+    "imagem": "/images/noite_nupcias.jpg"
+  },
+  {
+    "id": 18,
+    "nome": "Terapia que a Aline vai precisar pra aguentar o Gui",
+    "preco": 250,
+    "presenteado": false,
+    "categoria": "Serviços",
+    "descricao": "Sessões de terapia para Aline",
+    "imagem": "/images/terapia_aline.jpg"
+  },
+  {
+    "id": 19,
+    "nome": "Ajuda pra comprar um pc gamer pro Gui não ficar depressivo",
+    "preco": 300,
+    "presenteado": false,
+    "categoria": "Eletrônicos",
+    "descricao": "Contribuição para PC gamer do Gui",
+    "imagem": "/images/pc_gamer.jpg"
+  },
+  {
+    "id": 20,
+    "nome": "Curso de chef de cozinha pro casal não passar fome",
+    "preco": 150,
+    "presenteado": false,
+    "categoria": "Cursos",
+    "descricao": "Curso de culinária para o casal",
+    "imagem": "/images/curso_chef.jpg"
+  },
+  {
+    "id": 21,
+    "nome": "Ajuda pra comprar pano de prato extra porque o Gui vai queimar todos",
+    "preco": 85,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Panos de prato extras",
+    "imagem": "/images/pano_prato.jpg"
+  },
+  {
+    "id": 22,
+    "nome": "Ajuda pra comprar shampoo pro casal (vamos precisar)",
+    "preco": 120,
+    "presenteado": false,
+    "categoria": "Higiene",
+    "descricao": "Shampoo para o casal",
+    "imagem": "/images/shampoo.jpg"
+  },
+  {
+    "id": 23,
+    "nome": "Aromatizador de ambiente pra Line não desmaiar com os peidos do Gui",
+    "preco": 200,
+    "presenteado": false,
+    "categoria": "Casa",
+    "descricao": "Aromatizador de ambiente para a casa",
+    "imagem": "/images/aromatizador.jpg"
+  },
+  {
+    "id": 24,
+    "nome": "Ferramentas, Gui vai ter que aprender na marra",
+    "preco": 150,
+    "presenteado": false,
+    "categoria": "Casa",
+    "descricao": "Kit de ferramentas para o Gui",
+    "imagem": "/images/ferramentas.jpg"
+  },
+  {
+    "id": 25,
+    "nome": "Ajuda para o Gui e Aline irem na Arena",
+    "preco": 125,
+    "presenteado": false,
+    "categoria": "Lazer",
+    "descricao": "Ingresso para Arena Corinthians",
+    "imagem": "/images/arena_corinthians.jpeg"
+  },
+  {
+    "id": 26,
+    "nome": "Pó de café pro vício da Aline",
+    "preco": 70,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Café especial para a Aline",
+    "imagem": "/images/po_cafe.jpg"
+  },
+  {
+    "id": 27,
+    "nome": "Faqueiro",
+    "preco": 120,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Conjunto de talheres para refeições",
+    "imagem": "/images/faqueiro.jpg"
+  },
+  {
+    "id": 28,
+    "nome": "Jogo de copos",
+    "preco": 100,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Conjunto de copos para uso diário",
+    "imagem": "/images/copos.jpg"
+  },
+  {
+    "id": 29,
+    "nome": "Jogo de taças",
+    "preco": 100,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Taças para ocasiões especiais",
+    "imagem": "/images/tacas.jpg"
+  },
+  {
+    "id": 30,
+    "nome": "Jogo de xícaras",
+    "preco": 150,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Xícaras para café ou chá",
+    "imagem": "/images/xicaras.jpg"
+  },
+  {
+    "id": 31,
+    "nome": "Jogo de Panelas",
+    "preco": 300,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Conjunto de panelas para cozinhar",
+    "imagem": "/images/panelas.jpg"
+  },
+  {
+    "id": 32,
+    "nome": "Panela de pressão",
+    "preco": 250,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Panela de pressão para preparo rápido",
+    "imagem": "/images/panela_pressao.jpg"
+  },
+  {
+    "id": 33,
+    "nome": "Garrafa de café",
+    "preco": 80,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Garrafa térmica para café",
+    "imagem": "/images/garrafa_cafe.jpg"
+  },
+  {
+    "id": 34,
+    "nome": "Escorredor de louça",
+    "preco": 145,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Escorredor para louças lavadas",
+    "imagem": "/images/escorredor.jpg"
+  },
+  {
+    "id": 35,
+    "nome": "Bebedouro D’água",
+    "preco": 400,
+    "presenteado": false,
+    "categoria": "Casa",
+    "descricao": "Bebedouro para água potável",
+    "imagem": "/images/bebedouro.jpg"
+  },
+  {
+    "id": 36,
+    "nome": "Potes e travessas",
+    "preco": 150,
+    "presenteado": false,
+    "categoria": "Cozinha",
+    "descricao": "Conjunto de potes e travessas para armazenar alimentos",
+    "imagem": "/images/potes_travessas.jpg"
+  },
+  {
+    "id": 37,
+    "nome": "Jogo de cama",
+    "preco": 400,
+    "presenteado": false,
+    "categoria": "Cama e Banho",
+    "descricao": "Conjunto de lençóis e fronhas",
+    "imagem": "/images/jogo_cama.jpg"
+  },
+  {
+    "id": 38,
+    "nome": "Jogo de toalha",
+    "preco": 250,
+    "presenteado": false,
+    "categoria": "Cama e Banho",
+    "descricao": "Conjunto de toalhas para banho",
+    "imagem": "/images/jogo_toalha.jpg"
+  },
+  {
+    "id": 39,
+    "nome": "Colcha",
+    "preco": 200,
+    "presenteado": false,
+    "categoria": "Cama e Banho",
+    "descricao": "Colcha para cama",
+    "imagem": "/images/colcha.jpg"
+  },
+  {
+    "id": 40,
+    "nome": "Edredom",
+    "preco": 200,
+    "presenteado": false,
+    "categoria": "Cama e Banho",
+    "descricao": "Edredom para aquecer",
+    "imagem": "/images/edredom.jpg"
+  },
+  {
+    "id": 41,
+    "nome": "Travesseiro",
+    "preco": 190,
+    "presenteado": false,
+    "categoria": "Cama e Banho",
+    "descricao": "Travesseiro confortável",
+    "imagem": "/images/travesseiro.jpg"
+  },
+  {
+    "id": 42,
+    "nome": "Cesto de roupa",
+    "preco": 80,
+    "presenteado": false,
+    "categoria": "Casa",
+    "descricao": "Cesto para roupa suja",
+    "imagem": "/images/cesto_roupa.jpg"
+  },
+  {
+    "id": 43,
+    "nome": "Cortina",
+    "preco": 150,
+    "presenteado": false,
+    "categoria": "Casa",
+    "descricao": "Cortina para janelas",
+    "imagem": "/images/cortina.jpg"
+  },
+  {
+    "id": 44,
+    "nome": "Almofada",
+    "preco": 85,
+    "presenteado": false,
+    "categoria": "Casa",
+    "descricao": "Almofada decorativa",
+    "imagem": "/images/almofada.jpg"
+  },
+  {
+    "id": 45,
+    "nome": "Jogo de toalha de mesa",
+    "preco": 100,
+    "presenteado": false,
+    "categoria": "Casa",
+    "descricao": "Toalhas para mesa de jantar",
+    "imagem": "/images/jogo_toalha_mesa.jpg"
+  },
+  {
+    "id": 46,
+    "nome": "Jogo americano",
+    "preco": 60,
+    "presenteado": false,
+    "categoria": "Casa",
+    "descricao": "Jogo americano para mesa",
+    "imagem": "/images/jogo_americano.jpg"
+  },
+  {
+    "id": 47,
+    "nome": "Tapete",
+    "preco": 150,
+    "presenteado": false,
+    "categoria": "Casa",
+    "descricao": "Tapete para sala ou quarto",
+    "imagem": "/images/tapete.jpg"
+  },
+  {
+    "id": 48,
+    "nome": "Abajur",
+    "preco": 130,
+    "presenteado": false,
+    "categoria": "Casa",
+    "descricao": "Abajur para iluminação ambiente",
+    "imagem": "/images/abajur.jpg"
+  },
+  {
+    "id": 49,
+    "nome": "Cama de casal",
+    "preco": 970,
+    "presenteado": false,
+    "categoria": "Móveis",
+    "descricao": "Cama para casal",
+    "imagem": "/images/cama_casal.jpg"
+  },
+  {
+    "id": 50,
+    "nome": "Colchão",
+    "preco": 630,
+    "presenteado": false,
+    "categoria": "Móveis",
+    "descricao": "Colchão confortável para cama",
+    "imagem": "/images/colchao.png"
+  },
+  {
+    "id": 51,
+    "nome": "Guarda-roupa",
+    "preco": 1000,
+    "presenteado": false,
+    "categoria": "Móveis",
+    "descricao": "Guarda-roupa para organização de roupas",
+    "imagem": "/images/guarda_roupa.jpg"
+  },
+  {
+    "id": 52,
+    "nome": "Sofá",
+    "preco": 950,
+    "presenteado": false,
+    "categoria": "Móveis",
+    "descricao": "Sofá confortável para sala",
+    "imagem": "/images/sofa.jpg"
+  },
+  {
+    "id": 53,
+    "nome": "Puffs",
+    "preco": 110,
+    "presenteado": false,
+    "categoria": "Móveis",
+    "descricao": "Puffs para assentos extras",
+    "imagem": "/images/puffs.jpg"
+  },
+  {
+    "id": 54,
+    "nome": "Rack/Estante",
+    "preco": 570,
+    "presenteado": false,
+    "categoria": "Móveis",
+    "descricao": "Rack ou estante para sala",
+    "imagem": "/images/rack_estante.jpg"
+  },
+  {
+    "id": 55,
+    "nome": "Armário de cozinha",
+    "preco": 580,
+    "presenteado": false,
+    "categoria": "Móveis",
+    "descricao": "Armário para armazenamento na cozinha",
+    "imagem": "/images/armario_cozinha.jpg"
+  },
+  {
+    "id": 56,
+    "nome": "Mesa/Cadeiras",
+    "preco": 550,
+    "presenteado": false,
+    "categoria": "Móveis",
+    "descricao": "Mesa com cadeiras para refeições",
+    "imagem": "/images/mesa_cadeiras.jpg"
+  },
+  {
+    "id": 57,
+    "nome": "Quadros decorativos",
+    "preco": 80,
+    "presenteado": false,
+    "categoria": "Casa",
+    "descricao": "Quadros para decoração",
+    "imagem": "/images/quadros_decorativos.jpg"
+  },
+  {
+    "id": 58,
+    "nome": "Plantas decorativas",
+    "preco": 90,
+    "presenteado": false,
+    "categoria": "Casa",
+    "descricao": "Plantas para decoração",
+    "imagem": "/images/plantas_decorativas.jpg"
+  }
+]
