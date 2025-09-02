@@ -1,26 +1,33 @@
-import React, { useState } from "react";
-
-const presentesIniciais = [
-  { id: 1, nome: "Jogo de pratos", preco: 150, presenteado: false },
-  { id: 2, nome: "Conjunto de talheres", preco: 120, presenteado: true },
-  { id: 3, nome: "Toalha de mesa", preco: 80, presenteado: false },
-];
+import PresenteCard from "../components/PresenteCard";
+import Header from "../components/Header";
+import "./Lista.css";
+import { usePresentes } from "../context/PresenteContext";
 
 export default function Lista() {
-  const [presentes, setPresentes] = useState(presentesIniciais);
+  const { presentes, loading } = usePresentes();
+
+  if (loading) {
+    return (
+      <div className="lista-container">
+        <div className="loading">Carregando lista de presentes...</div>
+      </div>
+    );
+  }
 
   return (
-    <div style={{ padding: 20 }}>
-      <h2>Lista de Presentes</h2>
-      <ul>
-        {presentes.map((item) => (
-          <li key={item.id} style={{ marginBottom: 10 }}>
-            <b>{item.nome}</b> - R$ {item.preco} -{" "}
-            {item.presenteado ? "🎁 Presentedo" : "Disponível"}
-          </li>
-        ))}
-      </ul>
-      <p>Convidados podem escolher e presentear! (Botão de pagamento será implementado depois)</p>
+    <div>
+      <Header />
+      <p className= 'observacao'>(Imagens Meramente Ilustrativas)</p>
+      <div className="lista-container">
+        <div className="presentes-grid">
+          {presentes.map((presente) => (
+            <PresenteCard key={presente.id} presente={presente} />
+          ))}
+        </div>
+        <div className="lista-footer">
+          <p>Obrigado por fazer parte do nosso momento especial!</p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,24 +1,49 @@
-import {Link} from 'react-router-dom'
-import './Navbar.css'
+import { Link, useNavigate } from 'react-router-dom';
+import './Navbar.css';
 
-function Navbar() {
-    return (
-        <nav className="navbar">
-            <ul className="list">
-                <li className="item">
-                    <Link to="/">Home</Link>
-                </li>
-                <li className="item">
-                    <Link to="/List">Lista de Presentes</Link>
-                </li>
-            </ul>
-            <ul className="list">
-                <li className="item-login">
-                    <Link to="/login">Login</Link>
-                </li>
-            </ul>
-        </nav>
-    )
+interface NavbarProps {
+  loggedIn: boolean;
+  onLogout: () => void;
 }
 
-export default Navbar
+function Navbar({ loggedIn, onLogout }: NavbarProps) {
+  const navigate = useNavigate();
+
+  const handleLogoutClick = () => {
+    onLogout();
+    navigate('/');
+  };
+
+  return (
+    <nav className="navbar">
+      <ul className="list">
+        <li className="item">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="item">
+          <Link to="/lista">Lista</Link>
+        </li>
+
+        {loggedIn && (
+          <li className="item">
+            <Link to="/admin">Admin</Link>
+          </li>
+        )}
+      </ul>
+
+      <ul className="list">
+        {loggedIn ? (
+          <li className="item-login" onClick={handleLogoutClick} style={{ cursor: 'pointer' }}>
+            Sair
+          </li>
+        ) : (
+          <li className="item-login">
+            <Link to="/login">Login</Link>
+          </li>
+        )}
+      </ul>
+    </nav>
+  );
+}
+
+export default Navbar;

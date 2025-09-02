@@ -1,26 +1,20 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Navbar from "./components/Navbar.tsx";
-
-import Home from "./pages/Home.tsx";
-import Lista from "./pages/Lista.tsx";
-import Login from "./pages/Login.tsx";
-import Admin from "./pages/Admin.tsx";
+// src/App.tsx
+import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Lista from "./pages/Lista";
+import Admin from "./pages/Admin";
+import Login from "./pages/Login";
+import { PresenteProvider } from "./context/PresenteContext";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
 
-  // Persist login no localStorage
-  useEffect(() => {
-    const storage = localStorage.getItem("loggedIn");
-    if (storage === "true") setLoggedIn(true);
-  }, []);
-
-  const handleLogin = (password: string) => {
-    // Senha fixa: "noiva123"
-    if (password === "noiva123") {
+  const handleLogin = (senha: string) => {
+    const senhaCorreta = "noiva123"; // troque para a senha real
+    if (senha === senhaCorreta) {
       setLoggedIn(true);
-      localStorage.setItem("loggedIn", "true");
       return true;
     }
     return false;
@@ -28,19 +22,23 @@ function App() {
 
   const handleLogout = () => {
     setLoggedIn(false);
-    localStorage.removeItem("loggedIn");
   };
 
   return (
-    <Router>
-      <Navbar/>
-              <Routes>
-          <Route path="/" element={<Home />} />
+    <PresenteProvider>
+      <Router>
+        <Navbar loggedIn={loggedIn} onLogout={handleLogout} />
+        <Routes>
+          <Route path="/" element={<Home/>} />
           <Route path="/lista" element={<Lista />} />
-          <Route path="/login" element={<Login onLogin={handleLogin} loggedIn={loggedIn} />} />
-          <Route path="/admin" element={<Admin onLogout={handleLogout} />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route
+            path="/login"
+            element={<Login onLogin={handleLogin} loggedIn={loggedIn} />}
+          />
         </Routes>
-    </Router>
+      </Router>
+    </PresenteProvider>
   );
 }
 

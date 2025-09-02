@@ -1,47 +1,44 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import "./Admin.css";
+import { usePresentes } from "../context/PresenteContext";
 
-const presentesIniciais = [
-  { id: 1, nome: "Jogo de pratos", preco: 150, presenteado: false },
-  { id: 2, nome: "Conjunto de talheres", preco: 120, presenteado: true },
-  { id: 3, nome: "Toalha de mesa", preco: 80, presenteado: false },
-];
 
-export default function Admin({ onLogout }) {
-  const [presentes, setPresentes] = useState(presentesIniciais);
-  const navigate = useNavigate();
+export default function Admin() {
+  const { presentes, loading, togglePresenteado } = usePresentes();
 
-  const togglePresenteado = (id) => {
-    setPresentes((old) =>
-      old.map((item) =>
-        item.id === id ? { ...item, presenteado: !item.presenteado } : item
-      )
-    );
-  };
-
-  const handleLogout = () => {
-    onLogout();
-    navigate("/");
-  };
+  if (loading) {
+    return <div className="admin-container">Carregando...</div>;
+  }
 
   return (
-    <div style={{ padding: 20 }}>
-      <h2>Área da Noiva - Gerenciar Presentes</h2>
-      <button onClick={handleLogout}>Sair</button>
-      <ul>
-        {presentes.map((item) => (
-          <li key={item.id} style={{ marginBottom: 10 }}>
-            <b>{item.nome}</b> - R$ {item.preco} - Status:{" "}
-            {item.presenteado ? "🎁 Presentedo" : "Disponível"}
-            <button
-              onClick={() => togglePresenteado(item.id)}
-              style={{ marginLeft: 10 }}
+    <div className="admin-container">
+      <div className="admin-header">
+        <h2>Gerenciar Presentes</h2>
+        <p>Clique em um presente para alterar seu status</p>
+      </div>
+
+      <div className="admin-presentes">
+        <div className="presentes-list">
+          {presentes.map((presente) => (
+            <div
+              key={presente.id}
+              className={`presente-item ${presente.presenteado ? "presenteado" : ""}`}
+              onClick={() => togglePresenteado(presente.id)}
             >
-              {item.presenteado ? "Desmarcar" : "Marcar como presenteado"}
-            </button>
-          </li>
-        ))}
-      </ul>
+              <div className="presente-info">
+                <h4>{presente.nome}</h4>
+                <p className="preco">R$ {presente.preco.toFixed(2)}</p>
+              </div>
+              <div
+                className={`status ${
+                  presente.presenteado ? "presenteado" : "disponivel"
+                }`}
+              >
+                {presente.presenteado ? "🎁 Presenteado" : "📦 Disponível"}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

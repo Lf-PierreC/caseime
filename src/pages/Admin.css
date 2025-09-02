@@ -1,0 +1,165 @@
+.admin-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .admin-header {
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .admin-header h2 {
+    margin: 0 0 10px 0;
+    color: white;
+    font-family: "Cormorant SC", serif;
+    font-size: 2.5em;
+    font-weight: 200;
+  }
+  
+  .admin-header p {
+    margin: 0;
+    color: #939393;
+    font-size: 1.1em;
+  }
+  
+  
+  .stat-number {
+    display: block;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #2E7D32;
+    margin-bottom: 5px;
+  }
+  
+  .stat-label {
+    color: #666;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .admin-presentes {
+    padding: 30px;
+    border-radius: 15px;
+  }
+  
+  .admin-presentes h3 {
+    margin: 0 0 20px 0;
+    color: #333;
+    font-family: "Cormorant SC", serif;
+    font-size: 1.8em;
+    text-align: center;
+  }
+  
+  .presentes-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .presente-item {
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #666;
+  }
+  
+  .presente-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .presente-item.presenteado {
+    background: #4caf4f32;
+    border-color: #4CAF50;
+  }
+  
+  .presente-info h4 {
+    margin: 0 0 10px 0;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  
+  .presente-info .preco {
+    color: white;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: 5px 0;
+  }
+  
+  .presente-info .categoria {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+  
+  .status {
+    margin-top: 15px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9em;
+  }
+  
+  .status.disponivel {
+    background: #fff3cd;
+    color: #856404;
+  }
+  
+  .status.presenteado {
+    background: #d4edda;
+    color: #155724;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  /* Media queries para responsividade */
+  @media screen and (max-width: 768px) {
+    .admin-container {
+      padding: 15px;
+    }
+    
+    .admin-header {
+      padding: 20px;
+    }
+    
+    .admin-header h2 {
+      font-size: 1.8em;
+    }
+    
+    .admin-stats {
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .presentes-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .admin-header {
+      padding: 15px;
+    }
+    
+    .admin-presentes {
+      padding: 20px;
+    }
+    
+    .presente-item {
+      padding: 15px;
+    }
+  } 
