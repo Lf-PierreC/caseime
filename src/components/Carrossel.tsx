@@ -3,14 +3,14 @@ import "./Carrossel.css"
 
 function Carrossel() {
     const imagens = [
-        "/imagesCarrossel/Foto1.jpeg",
-        "/imagesCarrossel/Foto2.jpeg",
-        "/imagesCarrossel/Foto3.jpeg",
-        "/imagesCarrossel/Foto4.jpeg",
-        "/imagesCarrossel/Foto5.jpeg",
-        "/imagesCarrossel/Foto6.jpeg",
-        "/imagesCarrossel/Foto7.jpeg",
-        "/imagesCarrossel/Foto8.jpeg",
+        "/images/carrossel/Foto1.jpeg",
+        "/images/carrossel/Foto2.jpeg",
+        "/images/carrossel/Foto3.jpeg",
+        "/images/carrossel/Foto4.jpeg",
+        "/images/carrossel/Foto5.jpeg",
+        "/images/carrossel/Foto6.jpeg",
+        "/images/carrossel/Foto7.jpeg",
+        "/images/carrossel/Foto8.jpeg",
     ];
 
     const [indice, setIndice] = useState(0);

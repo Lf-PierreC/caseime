@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em 2em;
+    position: fixed;   /* fixa na tela */
+    top: 0;            /* cola no topo */
+    left: 0;
+    width: 100%;       /* ocupa toda a largura */
+    z-index: 1000;     /* garante que fique acima dos outros elementos */
+    backdrop-filter: blur(4px);                 /* Desfoque do fundo */
+    -webkit-backdrop-filter: blur(8px);     /* Desfoque do fundo para Safari */
 }
 
 .list {

@@ -16,7 +16,6 @@ export default function Lista() {
 
   return (
     <div>
-      <Header />
       <p className= 'observacao'>(Imagens Meramente Ilustrativas)</p>
       <div className="lista-container">
         <div className="presentes-grid">

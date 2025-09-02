@@ -6,7 +6,7 @@
     "presenteado": false,
     "categoria": "Eletrodomésticos",
     "descricao": "Máquina que lava e seca roupas",
-    "imagem": "/images/lava_seca.png"
+    "imagem": "/images/list/lava_seca.png"
   },
   {
     "id": 3,
@@ -15,7 +15,7 @@
     "presenteado": true,
     "categoria": "Eletrodomésticos",
     "descricao": "Geladeira moderna para conservar alimentos",
-    "imagem": "/images/geladeira.jpg"
+    "imagem": "/images/list/geladeira.jpg"
   },
   {
     "id": 4,
@@ -24,7 +24,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Fogão cooktop para preparar suas refeições",
-    "imagem": "/images/cooktop.jpg"
+    "imagem": "/images/list/cooktop.jpg"
   },
   {
     "id": 5,
@@ -33,7 +33,7 @@
     "presenteado": false,
     "categoria": "Móveis",
     "descricao": "Cama confortável para o casal",
-    "imagem": "/images/cama.jpg"
+    "imagem": "/images/list/cama.jpg"
   },
   {
     "id": 6,
@@ -42,7 +42,7 @@
     "presenteado": false,
     "categoria": "Eletrônicos",
     "descricao": "Televisão para momentos de lazer",
-    "imagem": "/images/tv.jpg"
+    "imagem": "/images/list/tv.jpg"
   },
   {
     "id": 7,
@@ -51,7 +51,7 @@
     "presenteado": false,
     "categoria": "Eletrodomésticos",
     "descricao": "Aspirador robô para facilitar a limpeza",
-    "imagem": "/images/aspirador.jpg"
+    "imagem": "/images/list/aspirador.jpg"
   },
   {
     "id": 8,
@@ -60,7 +60,7 @@
     "presenteado": false,
     "categoria": "Eletrodomésticos",
     "descricao": "Ferro para passar roupas",
-    "imagem": "/images/ferro.jpg"
+    "imagem": "/images/list/ferro.jpg"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "presenteado": false,
     "categoria": "Eletrodomésticos",
     "descricao": "Ferro a vapor para roupas sem amassados",
-    "imagem": "/images/ferro_vapor.jpg"
+    "imagem": "/images/list/ferro_vapor.jpg"
   },
   {
     "id": 10,
@@ -78,7 +78,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Liquidificador para sucos e vitaminas",
-    "imagem": "/images/liquidificador.jpg"
+    "imagem": "/images/list/liquidificador.jpg"
   },
   {
     "id": 11,
@@ -87,7 +87,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Grill elétrico para grelhar alimentos",
-    "imagem": "/images/grill.jpg"
+    "imagem": "/images/list/grill.jpg"
   },
   {
     "id": 12,
@@ -96,7 +96,7 @@
     "presenteado": true,
     "categoria": "Eletrodomésticos",
     "descricao": "Microondas para esquentar suas refeições",
-    "imagem": "/images/microondas.jpg"
+    "imagem": "/images/list/microondas.jpg"
   },
   {
     "id": 13,
@@ -105,7 +105,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Air fryer para fritar com menos óleo",
-    "imagem": "/images/air_fryer.jpg"
+    "imagem": "/images/list/air_fryer.jpg"
   },
   {
     "id": 14,
@@ -114,7 +114,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Cafeteira para preparar café fresco",
-    "imagem": "/images/cafeteira.jpg"
+    "imagem": "/images/list/cafeteira.jpg"
   },
   {
     "id": 15,
@@ -123,7 +123,7 @@
     "presenteado": false,
     "categoria": "Viagem",
     "descricao": "Contribuição para a lua de mel do casal",
-    "imagem": "/images/ajuda_lua_mel.jpg"
+    "imagem": "/images/list/ajuda_lua_mel.jpg"
   },
   {
     "id": 16,
@@ -132,7 +132,7 @@
     "presenteado": false,
     "categoria": "Viagem",
     "descricao": "Mais uma ajuda para a lua de mel",
-    "imagem": "/images/ajuda_lua_mel_2.jpg"
+    "imagem": "/images/list/ajuda_lua_mel_2.jpg"
   },
   {
     "id": 17,
@@ -141,7 +141,7 @@
     "presenteado": false,
     "categoria": "Viagem",
     "descricao": "Noite especial de núpcias para o casal",
-    "imagem": "/images/noite_nupcias.jpg"
+    "imagem": "/images/list/noite_nupcias.jpg"
   },
   {
     "id": 18,
@@ -150,7 +150,7 @@
     "presenteado": false,
     "categoria": "Serviços",
     "descricao": "Sessões de terapia para Aline",
-    "imagem": "/images/terapia_aline.jpg"
+    "imagem": "/images/list/terapia_aline.jpg"
   },
   {
     "id": 19,
@@ -159,7 +159,7 @@
     "presenteado": false,
     "categoria": "Eletrônicos",
     "descricao": "Contribuição para PC gamer do Gui",
-    "imagem": "/images/pc_gamer.jpg"
+    "imagem": "/images/list/pc_gamer.jpg"
   },
   {
     "id": 20,
@@ -168,7 +168,7 @@
     "presenteado": false,
     "categoria": "Cursos",
     "descricao": "Curso de culinária para o casal",
-    "imagem": "/images/curso_chef.jpg"
+    "imagem": "/images/list/curso_chef.jpg"
   },
   {
     "id": 21,
@@ -177,7 +177,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Panos de prato extras",
-    "imagem": "/images/pano_prato.jpg"
+    "imagem": "/images/list/pano_prato.jpg"
   },
   {
     "id": 22,
@@ -186,7 +186,7 @@
     "presenteado": false,
     "categoria": "Higiene",
     "descricao": "Shampoo para o casal",
-    "imagem": "/images/shampoo.jpg"
+    "imagem": "/images/list/shampoo.jpg"
   },
   {
     "id": 23,
@@ -195,7 +195,7 @@
     "presenteado": false,
     "categoria": "Casa",
     "descricao": "Aromatizador de ambiente para a casa",
-    "imagem": "/images/aromatizador.jpg"
+    "imagem": "/images/list/aromatizador.jpg"
   },
   {
     "id": 24,
@@ -204,7 +204,7 @@
     "presenteado": false,
     "categoria": "Casa",
     "descricao": "Kit de ferramentas para o Gui",
-    "imagem": "/images/ferramentas.jpg"
+    "imagem": "/images/list/ferramentas.jpg"
   },
   {
     "id": 25,
@@ -213,7 +213,7 @@
     "presenteado": false,
     "categoria": "Lazer",
     "descricao": "Ingresso para Arena Corinthians",
-    "imagem": "/images/arena_corinthians.jpeg"
+    "imagem": "/images/list/arena_corinthians.jpeg"
   },
   {
     "id": 26,
@@ -222,7 +222,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Café especial para a Aline",
-    "imagem": "/images/po_cafe.jpg"
+    "imagem": "/images/list/po_cafe.jpg"
   },
   {
     "id": 27,
@@ -231,7 +231,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Conjunto de talheres para refeições",
-    "imagem": "/images/faqueiro.jpg"
+    "imagem": "/images/list/faqueiro.jpg"
   },
   {
     "id": 28,
@@ -240,7 +240,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Conjunto de copos para uso diário",
-    "imagem": "/images/copos.jpg"
+    "imagem": "/images/list/copos.jpg"
   },
   {
     "id": 29,
@@ -249,7 +249,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Taças para ocasiões especiais",
-    "imagem": "/images/tacas.jpg"
+    "imagem": "/images/list/tacas.jpg"
   },
   {
     "id": 30,
@@ -258,7 +258,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Xícaras para café ou chá",
-    "imagem": "/images/xicaras.jpg"
+    "imagem": "/images/list/xicaras.jpg"
   },
   {
     "id": 31,
@@ -267,7 +267,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Conjunto de panelas para cozinhar",
-    "imagem": "/images/panelas.jpg"
+    "imagem": "/images/list/panelas.jpg"
   },
   {
     "id": 32,
@@ -276,7 +276,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Panela de pressão para preparo rápido",
-    "imagem": "/images/panela_pressao.jpg"
+    "imagem": "/images/list/panela_pressao.jpg"
   },
   {
     "id": 33,
@@ -285,7 +285,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Garrafa térmica para café",
-    "imagem": "/images/garrafa_cafe.jpg"
+    "imagem": "/images/list/garrafa_cafe.jpg"
   },
   {
     "id": 34,
@@ -294,7 +294,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Escorredor para louças lavadas",
-    "imagem": "/images/escorredor.jpg"
+    "imagem": "/images/list/escorredor.jpg"
   },
   {
     "id": 35,
@@ -303,7 +303,7 @@
     "presenteado": false,
     "categoria": "Casa",
     "descricao": "Bebedouro para água potável",
-    "imagem": "/images/bebedouro.jpg"
+    "imagem": "/images/list/bebedouro.jpg"
   },
   {
     "id": 36,
@@ -312,7 +312,7 @@
     "presenteado": false,
     "categoria": "Cozinha",
     "descricao": "Conjunto de potes e travessas para armazenar alimentos",
-    "imagem": "/images/potes_travessas.jpg"
+    "imagem": "/images/list/potes_travessas.jpg"
   },
   {
     "id": 37,
@@ -321,7 +321,7 @@
     "presenteado": false,
     "categoria": "Cama e Banho",
     "descricao": "Conjunto de lençóis e fronhas",
-    "imagem": "/images/jogo_cama.jpg"
+    "imagem": "/images/list/jogo_cama.jpg"
   },
   {
     "id": 38,
@@ -330,7 +330,7 @@
     "presenteado": false,
     "categoria": "Cama e Banho",
     "descricao": "Conjunto de toalhas para banho",
-    "imagem": "/images/jogo_toalha.jpg"
+    "imagem": "/images/list/jogo_toalha.jpg"
   },
   {
     "id": 39,
@@ -339,7 +339,7 @@
     "presenteado": false,
     "categoria": "Cama e Banho",
     "descricao": "Colcha para cama",
-    "imagem": "/images/colcha.jpg"
+    "imagem": "/images/list/colcha.jpg"
   },
   {
     "id": 40,
@@ -348,7 +348,7 @@
     "presenteado": false,
     "categoria": "Cama e Banho",
     "descricao": "Edredom para aquecer",
-    "imagem": "/images/edredom.jpg"
+    "imagem": "/images/list/edredom.jpg"
   },
   {
     "id": 41,
@@ -357,7 +357,7 @@
     "presenteado": false,
     "categoria": "Cama e Banho",
     "descricao": "Travesseiro confortável",
-    "imagem": "/images/travesseiro.jpg"
+    "imagem": "/images/list/travesseiro.jpg"
   },
   {
     "id": 42,
@@ -366,7 +366,7 @@
     "presenteado": false,
     "categoria": "Casa",
     "descricao": "Cesto para roupa suja",
-    "imagem": "/images/cesto_roupa.jpg"
+    "imagem": "/images/list/cesto_roupa.jpg"
   },
   {
     "id": 43,
@@ -375,7 +375,7 @@
     "presenteado": false,
     "categoria": "Casa",
     "descricao": "Cortina para janelas",
-    "imagem": "/images/cortina.jpg"
+    "imagem": "/images/list/cortina.jpg"
   },
   {
     "id": 44,
@@ -384,7 +384,7 @@
     "presenteado": false,
     "categoria": "Casa",
     "descricao": "Almofada decorativa",
-    "imagem": "/images/almofada.jpg"
+    "imagem": "/images/list/almofada.jpg"
   },
   {
     "id": 45,
@@ -393,7 +393,7 @@
     "presenteado": false,
     "categoria": "Casa",
     "descricao": "Toalhas para mesa de jantar",
-    "imagem": "/images/jogo_toalha_mesa.jpg"
+    "imagem": "/images/list/jogo_toalha_mesa.jpg"
   },
   {
     "id": 46,
@@ -402,7 +402,7 @@
     "presenteado": false,
     "categoria": "Casa",
     "descricao": "Jogo americano para mesa",
-    "imagem": "/images/jogo_americano.jpg"
+    "imagem": "/images/list/jogo_americano.jpg"
   },
   {
     "id": 47,
@@ -411,7 +411,7 @@
     "presenteado": false,
     "categoria": "Casa",
     "descricao": "Tapete para sala ou quarto",
-    "imagem": "/images/tapete.jpg"
+    "imagem": "/images/list/tapete.jpg"
   },
   {
     "id": 48,
@@ -420,7 +420,7 @@
     "presenteado": false,
     "categoria": "Casa",
     "descricao": "Abajur para iluminação ambiente",
-    "imagem": "/images/abajur.jpg"
+    "imagem": "/images/list/abajur.jpg"
   },
   {
     "id": 49,
@@ -429,7 +429,7 @@
     "presenteado": false,
     "categoria": "Móveis",
     "descricao": "Cama para casal",
-    "imagem": "/images/cama_casal.jpg"
+    "imagem": "/images/list/cama_casal.jpg"
   },
   {
     "id": 50,
@@ -438,7 +438,7 @@
     "presenteado": false,
     "categoria": "Móveis",
     "descricao": "Colchão confortável para cama",
-    "imagem": "/images/colchao.png"
+    "imagem": "/images/list/colchao.png"
   },
   {
     "id": 51,
@@ -447,7 +447,7 @@
     "presenteado": false,
     "categoria": "Móveis",
     "descricao": "Guarda-roupa para organização de roupas",
-    "imagem": "/images/guarda_roupa.jpg"
+    "imagem": "/images/list/guarda_roupa.jpg"
   },
   {
     "id": 52,
@@ -456,7 +456,7 @@
     "presenteado": false,
     "categoria": "Móveis",
     "descricao": "Sofá confortável para sala",
-    "imagem": "/images/sofa.jpg"
+    "imagem": "/images/list/sofa.jpg"
   },
   {
     "id": 53,
@@ -465,7 +465,7 @@
     "presenteado": false,
     "categoria": "Móveis",
     "descricao": "Puffs para assentos extras",
-    "imagem": "/images/puffs.jpg"
+    "imagem": "/images/list/puffs.jpg"
   },
   {
     "id": 54,
@@ -474,7 +474,7 @@
     "presenteado": false,
     "categoria": "Móveis",
     "descricao": "Rack ou estante para sala",
-    "imagem": "/images/rack_estante.jpg"
+    "imagem": "/images/list/rack_estante.jpg"
   },
   {
     "id": 55,
@@ -483,7 +483,7 @@
     "presenteado": false,
     "categoria": "Móveis",
     "descricao": "Armário para armazenamento na cozinha",
-    "imagem": "/images/armario_cozinha.jpg"
+    "imagem": "/images/list/armario_cozinha.jpg"
   },
   {
     "id": 56,
@@ -492,7 +492,7 @@
     "presenteado": false,
     "categoria": "Móveis",
     "descricao": "Mesa com cadeiras para refeições",
-    "imagem": "/images/mesa_cadeiras.jpg"
+    "imagem": "/images/list/mesa_cadeiras.jpg"
   },
   {
     "id": 57,
@@ -501,7 +501,7 @@
     "presenteado": false,
     "categoria": "Casa",
     "descricao": "Quadros para decoração",
-    "imagem": "/images/quadros_decorativos.jpg"
+    "imagem": "/images/list/quadros_decorativos.jpg"
   },
   {
     "id": 58,
@@ -510,6 +510,6 @@
     "presenteado": false,
     "categoria": "Casa",
     "descricao": "Plantas para decoração",
-    "imagem": "/images/plantas_decorativas.jpg"
+    "imagem": "/images/list/plantas_decorativas.jpg"
   }
 ]
